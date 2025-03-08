@@ -191,9 +191,17 @@ main > section{
 .sponspors-companies{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    margin: auto;
+    
 }
 .sponspors-companies img{
     filter: grayscale(100%);
+}
+footer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 123px auto;
 }
 
 @media screen and (max-width:576px) {
